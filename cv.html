@@ -38,7 +38,7 @@
   <main>
     <div class="container" style="padding: 60px 24px 0; min-height: 50vh;">
       <div class="cv-image">
-      <img src="assets/images/school-concert_2.webp" alt="Gambar-school-concert">
+      <img src="assets/images/school-concert.jpg" alt="Gambar-school-concert">
     </div>
 
     <br />
@@ -85,45 +85,75 @@
       </div>
     </div>
 
-    <br />
-    <h2 style="color:#c93647">Skills Bar</h2>
+    <h2 class="cv-section-title">Skills Bar</h2>
     <div class="skills-bar">
-      <div class="guitar-skills">Gitar 🎸</div>
-      <div class="vokal-skills">Vokal 🎤</div>
-      <div class="lyricist-skills">Lirik 🎼</div>
+      <div class="skill-item">
+        <div class="skill-info">
+          <span class="skill-name">Gitar 🎸</span>
+          <span class="skill-percent">95%</span>
+        </div>
+        <div class="skill-track">
+          <div class="skill-fill guitar-skills"></div>
+        </div>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-info">
+          <span class="skill-name">Vokal 🎤</span>
+          <span class="skill-percent">25%</span>
+        </div>
+        <div class="skill-track">
+          <div class="skill-fill vokal-skills"></div>
+        </div>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-info">
+          <span class="skill-name">Lirik 🎼</span>
+          <span class="skill-percent">85%</span>
+        </div>
+        <div class="skill-track">
+          <div class="skill-fill lyricist-skills"></div>
+        </div>
+      </div>
     </div>  
 
-    <br />
-    <h2 style="color:#c93647">Contact Me!</h2>
+    <h2 class="cv-section-title">Contact Me!</h2>
     <form class="contact">
-      <label for="name">Nama Lengkap:</label>
-      <input
-        type="text";
-        id="name";
-        name="name";
-        placeholder="Masukkan nama lengkapmu"
-        required
-      />
-      <br />
-      <label for="email">Email:</label>
-      <input 
-        type="email";
-        id="email";
-        name="email";
-        placeholder="Masukkan emailmu";
-        required
-      />
-      <br />
-      <label for="password">Password:</label>
-      <input
-        type="password";
-        id="password";
-        name="password";
-        placeholder="Masukkan passowrdmu";
-        required
-      />
-      <br />
-      <button type="submit">Kirim</button>
+      <div class="form-group">
+        <label for="name">Nama Lengkap:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Masukkan nama lengkapmu"
+          required
+        >
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input 
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Masukkan emailmu"
+          required
+        >
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Masukkan passwordmu"
+          required
+        >
+      </div>
+
+      <button type="submit" class="btn btn-primary">✉️ Kirim</button>
     </form>
     </div>
 
