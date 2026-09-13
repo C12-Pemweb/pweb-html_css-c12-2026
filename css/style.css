@@ -907,7 +907,102 @@ a {
   }
 }
 
-/* Bila */
+.cv-image{
+  position: relative;
+  border: solid palevioletred 3px;
+  width: 450px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.stats-bar{
+  display:flex;
+  justify-content: space-between;
+  gap: 0px;
+}
+
+.stats-item{
+  background-color: rgb(255, 209, 215);
+  padding: 10px;
+  margin: 10px;
+  border: solid black 1px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.timeline{
+  position: relative;
+  padding: 20px 0;
+}
+
+.timeline::before{
+  content: '';
+  position: absolute;
+  width: 4px;
+  background-color: palevioletred;
+  top: 0;
+  bottom: 0;
+  left: 20px;
+  border-radius: 2px;
+}
+
+.timeline-item{
+  position: relative;
+  margin-bottom: 25px;
+  padding-left: 60px;
+}
+
+.timeline-item::after{
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 4px;
+  background-color: palevioletred;
+  left: 24px;
+  top: 20px;
+}
+
+.skills-bar{
+  display: block;
+  background-color: white;
+  padding: 20px;
+  border: 3px solid palevioletred;
+  border-radius: 10px;
+}
+
+.guitar-skills{
+  display: block;
+  background-color: rgb(249, 229, 131);
+  width: 75%;
+  padding: 0 20px;
+  margin: 10px;
+  font-size: large;
+}
+
+.vokal-skills{
+  display: block;
+  background-color: rgb(249, 229, 131);
+  width: 5%;
+  padding: 0 20px;
+  margin: 10px;
+  font-size: large;
+}
+
+.lyricist-skills{
+  display: block;
+  background-color: rgb(249, 229, 131);
+  width: 100%;
+  padding: 0 20px;
+  margin: 10px;
+  font-size: large;
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  background-color: pink;
+  padding: 10px;
+}
 
 .gallery-hero {
   text-align: center;
