@@ -1,5 +1,12 @@
 # Portfolio Website: Hitori Gotoh (Bocchi)
 
+### Kelompok C12
+> Nabila Sharliz Sigit (5027251054)\
+> Catur Setyo Ragil (5027251066)\
+> Nabila Nafisatus Zuhro (5027251073)
+
+---
+
 ## Preview Tampilan
 
 ### 1. Landing Page (`index.html`)
@@ -35,14 +42,8 @@ Website ini dibangun murni menggunakan **HTML5 semantik** dan **CSS3 modern** de
    * Menu navigasi responsif pada perangkat mobile dibangun murni menggunakan teknik *checkbox hack* (`#menu-toggle:checked ~ .nav-links`) tanpa sebaris kode JavaScript pun.
 4. **Efek Kertas Sobek (*Torn Paper Edge*)**
    * Menggunakan `clip-path: polygon(...)` dinamis untuk menghasilkan efek gerigi sobekan kertas yang menyatu mulus di atas footer pada setiap halaman.
-5. **Komponen Scrapbook Neo-Brutalis Kustom**
+5. **Komponen Scrapbook Neo-Brutalis Custom**
    * Stempel angka transparan (`.stamp`), stiker selotip miring (`.tape`), kartu polaroid dengan pin pick gitar, dan tombol 3D offset lift saat di-hover.
-6. **Interactive Skills Progress Track**
-   * Bilah keahlian pada CV yang memisahkan label teks dan persentase dengan *track bar* berbayang dalam (*inset shadow*) dan warna tema yang kontras.
-7. **Formulir Kontak Terstruktur**
-   * Form kontak interaktif dengan validasi atribut HTML5 (`required`, `type="email"`, dll.) dan visual *focus-state* yang jelas.
-8. **Ikon Vektor Mandiri & Aset Ringan**
-   * Ikon media sosial menggunakan file SVG mandiri di dalam folder `assets/icons/` yang dilengkapi efek filter transisi warna otomatis saat disentuh kursor.
 
 ---
 
