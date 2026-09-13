@@ -1002,4 +1002,106 @@ a {
   flex-direction: column;
   background-color: pink;
   padding: 10px;
+/* Bila */
+
+.gallery-hero {
+  text-align: center;
+  padding: 50px 24px 20px;
+}
+.gallery-hero h1 {
+  font-family: var(--font-heading);
+  font-size: 2.3rem;
+  margin: 12px 0;
+}
+
+.gallery-grid-section {
+  padding: 30px 24px;
+}
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.gallery-card {
+  background: #FFFDF9;
+  border: 2px solid var(--color-text);
+  box-shadow: var(--shadow);
+  padding: 24px;
+  border-radius: 4px;
+}
+.gallery-card-img img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  border: 2px solid var(--color-text);
+}
+
+.skills-section {
+  padding: 30px 24px;
+}
+.pill-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 16px;
+}
+.pill {
+  padding: 8px 18px;
+  background-color: var(--color-secondary);
+  border: 2px solid var(--color-text);
+  border-radius: 20px;
+  font-family: var(--font-heading);
+  transition: transform 0.15s, background-color 0.15s;
+}
+.pill:hover {
+  background-color: var(--color-accent);
+  transform: translateY(-3px);
+}
+
+.hobi-section {
+  padding: 20px 24px;
+}
+.hobi-list {
+  list-style: disc;
+  padding-left: 24px;
+  margin-top: 10px;
+}
+.hobi-list li {
+  margin-bottom: 6px;
+}
+
+.jadwal-section {
+  padding: 20px 24px 40px;
+}
+.jadwal-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+  background: #FFFDF9;
+}
+.jadwal-table th, .jadwal-table td {
+  border: 1.5px solid var(--color-text);
+  padding: 10px 14px;
+  text-align: left;
+}
+.jadwal-table th {
+  background-color: var(--color-secondary);
+}
+
+.gallery-cta {
+  text-align: center;
+  padding: 20px 24px 60px;
+}
+.gallery-cta p {
+  margin-bottom: 14px;
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
 }
